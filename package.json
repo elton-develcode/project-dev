@@ -1,0 +1,31 @@
+{
+  "name": "project-dev",
+  "version": "1.0.0",
+  "description": "Projeto para desenvolvedores de software",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elton-develcode/project-dev.git"
+  },
+  "author": "Elton Veiga",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/elton-develcode/project-dev/issues"
+  },
+  "homepage": "https://github.com/elton-develcode/project-dev#readme",
+  "dependencies": {
+    "@babel/core": "^7.8.4",
+    "@babel/preset-env": "^7.8.4",
+    "babel-loader": "^8.0.6",
+    "css-loader": "^3.4.2",
+    "html-webpack-plugin": "^3.2.0",
+    "style-loader": "^1.1.3",
+    "webpack": "^4.41.6",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.10.3"
+  }
+}
